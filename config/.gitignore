@@ -1,0 +1,10 @@
+vendor
+/vendor
+vendor/*
+composer.lock
+.idea/*
+.idea
+/.idea
+config/default.php
+tmp
+tmp/*

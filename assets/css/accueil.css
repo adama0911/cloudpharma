@@ -1,0 +1,64 @@
+li{
+    margin-top: 0.5rem;
+    margin-left: 1rem; 
+}
+
+.hidden{
+    display: none !important;
+    visibility: hidden;
+}
+
+.show{
+    display: block !important;
+    visibility: visible;
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 414px) {
+  .hidden-sm-hidden-md {
+    display:none;
+    visibility: hidden;
+  }
+
+  .visible-sm-visible-md {
+    display:block;
+    visibility: visible;
+  }
+
+  .visible-sm-visible-md button{
+   		padding: 2.5rem;
+  }
+
+  .visible-sm-visible-md {
+   	text-align: center;
+  }
+
+  button{
+  	margin : 0.2rem;
+  }
+
+}
+
+
+@media screen and (min-width: 414px) and (max-width: 2000px) {
+  .hidden-sm-hidden-md {
+    display:block;
+    visibility: visible;
+  }
+
+  .visible-sm-visible-md {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.hidden{
+	display: none;
+	visibility: hidden;
+}
+
+.show{
+	display: block;
+	visibility: visible;
+}
+
